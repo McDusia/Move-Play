@@ -15,24 +15,23 @@ opencv-python 4.0.0.21
 numpy 1.15.0
 imutils 0.5.2
 
-| Library       | Version       | Usage         |
-| ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | Second Header |
-| Content Cell  | Content Cell  | Second Header |
+| Library       | Version       | Usage                           |
+| ------------- | ------------- | -------------                   |
+| PyAudio       | 0.2.11        | Play sounds                     |
+| opencv-python | 4.0.0.21      | Track move in live wideo        |
+| numpy         | 1.15.0        | Basic math functions            |
+| imutils       | 0.5.2         | To make basic image processing  |
 
-```
-Give examples
-```
+
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Use pip install command to install all required prerequisities described above.
 
 ```
-Give the example
+pip install PyAudio
 ```
+
 
 And repeat
 
