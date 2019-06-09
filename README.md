@@ -8,12 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Python version 3.6
-Libraries:
-PyAudio 0.2.11
-opencv-python 4.0.0.21
-numpy 1.15.0
-imutils 0.5.2
+Project require Python version 3.6.
 
 | Library       | Version       | Usage                           |
 | ------------- | ------------- | -------------                   |
@@ -32,62 +27,44 @@ Use pip install command to install all required prerequisities described above.
 pip install PyAudio
 ```
 
+### Run program
+To run application run class move_play.py.
 
-And repeat
+## Application Description
 
-```
-until finished
-```
+### Objectives
+Initially, we wanted to make an application, which enable moving mouse using any colorful object.
+We did not have any ideas how to make this useful.
 
-End with an example of getting some data out of the system or using it for a little demo
+Then, we decided to make a toy, application which enables playing the sound using colorful object and provides the opportunity to change the amplitude of the sound (volume) and the frequency of the sound (sound pitch).
 
-## Running the tests
+### Methodology
+1. Image recognition using opencv-python
+2. Playing sounds using initially audiogen library, finally pyaudio
+3. Playing sounds depends on image recognition - merge step 1 and 2
+4. Testing by piano players and amateurs
 
-Explain how to run the automated tests for this system
+### Evaluation
+Move & Play was tested by one beginner player, two intermediate player and one advance player.
+Each player tried to play simple melody.
 
-### Break down into end to end tests
+Nice toy
+Image recognition does not work ideally
+Image recognition working depends on the lights, the day time
 
-Explain what these tests test and why
+### Discussion
+Toy was generally approved
 
-```
-Give an example
-```
+Some proposition to improve:
+There should be possibility to stop playing the sound and manipulate the durability of the sound.
 
-### And coding style tests
+Proposal changes:
+Green object turn on the sound
+Another colorful object turn off the sound
+Sound lasting until you turn off them
+Therefore, it would be easier to play something interesting.
 
-Explain what these tests test and why
 
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
