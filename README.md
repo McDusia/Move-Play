@@ -1,6 +1,4 @@
 
-[Presentation](https://github.com/McDusia/Move-Play/blob/master/Presentation.pdf?raw=true
-
 # Move-Play
 
 This program enable translate moving any green object to music.
