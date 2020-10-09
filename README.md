@@ -1,4 +1,4 @@
-![alt text](Presentation.pdf)
+Move-Play/Presentation.pdf
 Presentation
 
 # Move-Play
