@@ -1,5 +1,5 @@
 
-![Presentation](https://github.com/McDusia/Move-Play/blob/master/Presentation.pdf?raw=true)
+[Presentation](https://github.com/McDusia/Move-Play/blob/master/Presentation.pdf?raw=true
 
 # Move-Play
 
