@@ -1,7 +1,7 @@
 Move-Play/Presentation.pdf
 Presentation
 
-![alt text](/Presentation.pdf)
+![alt text]( Presentation.pdf)
  Figure 1: This figure shows the usage of Train Route Choice Support System.}
  
 # Move-Play
