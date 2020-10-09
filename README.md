@@ -1,11 +1,5 @@
-Move-Play/Presentation.pdf
-Presentation
 
-![alt text]( Presentation.pdf)
-
-Figure 1: This figure shows the usage of Train Route Choice Support System.}
-
-[Presentation.pdf](https://github.com/McDusia/Move-Play/edit/master/Presentation.pdf)
+[Presentation.pdf](https://github.com/McDusia/Move-Play/blob/master/Presentation.pdf)
 
 # Move-Play
 
